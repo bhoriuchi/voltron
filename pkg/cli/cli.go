@@ -8,6 +8,8 @@ func NewCommand() *cobra.Command {
 		SilenceErrors: true,
 	}
 
-	cmd.AddCommand(initKeygenCmd())
+	cmd.AddCommand(initCaCmd())
+	cmd.AddCommand(initCertCmd())
+	cmd.AddCommand(initTrusteeCmd())
 	return cmd
 }

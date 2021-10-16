@@ -17,3 +17,8 @@
 /voltron
 /voltron.exe
 *.pem
+*.key
+*.pub
+*.enc.keypart
+*.crt
+*.crl

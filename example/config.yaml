@@ -1,0 +1,9 @@
+key_shares: 3 # generate 3 shares to make 1 lost share acceptable
+key_threshold: 2 # 2 shares to unlock
+expires: 175320h # 20 years
+organization: Voltron
+organizational_unit: IT
+country: United States
+state: California
+locality: Los Angeles
+common_name: Voltron-CA
